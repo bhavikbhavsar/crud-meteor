@@ -1,0 +1,48 @@
+<head>
+  <title>mongodemo</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> form}}
+</body>
+
+<template name="form">
+    <div class="container">
+        <form id="insert-form">
+        <h3>Insert Record</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="name" placeholder="Employee Name" />
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="salary" placeholder="Employee Salary" />
+            </div>
+            <div class="col-md-4">
+                <input type="submit" name="Insert" class="btn btn-primary" />
+            </div>
+        </div>
+        </form>
+    </div>
+      <div class="container">
+      <h3>All Records</h3>
+      <div class='row'>
+          <div class="col-md-4">
+              <h3><b>Name</b></h3>
+          </div>
+          <div class="col-md-4">
+              <h3><b>Salary</b></h3>
+          </div>
+      </div>
+      {{#each records}}
+      <div class="row">
+          <div class="col-md-4">
+              {{name}}
+          </div>
+          <div class="col-md-4">
+              {{salary}}
+          </div>
+      </div>
+      {{/each}}
+    </div>
+</template>
