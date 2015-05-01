@@ -1,11 +1,10 @@
 # crud-meteor
 
-This is a basic app to demonstrate crud functioanlity using meteor.
+This is a basic app to demonstrate crud functionality using meteor.
 A simple form has been constructed to take inputs such as employee name and salary.
-Which is then displayed as record below it.
+Records are then displayed below then form.
 
 Completed :
 Create and read operations
 To do :
 update and delete operations
-
