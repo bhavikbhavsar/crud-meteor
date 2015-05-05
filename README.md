@@ -1,4 +1,5 @@
 # crud-meteor
+[![Build Status](https://travis-ci.org/bhavikbhavsar/crud-meteor.png)](https://travis-ci.org/bhavikbhavsar/crud-meteor)
 A basic web-app to demonstrate crud functionality using meteor.
 
 ## **Functionality:**
