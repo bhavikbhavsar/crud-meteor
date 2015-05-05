@@ -9,6 +9,7 @@ A basic web-app to demonstrate crud functionality using meteor.
 
 ## **Completed:**
 Form to submit information to minimongo database.
+
 List to display the entries in the minimongo database.
 
 ## **To do:**
@@ -17,5 +18,8 @@ Update single entry.
 
 ## **Installation Usages**
 git clone https://github.com/bhavikbhavsar/crud-meteor.git
+
 cd crud-meteor
+
 meteor
+
